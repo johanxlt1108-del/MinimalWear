@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mora — Tienda de Ropa</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 15px;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: #ffffff;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #555;
+        }
+
+        .productos {
+            max-width: 1000px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">MORA</div>
+        <nav>
+            <a href="#productos">Productos</a>
+            <a href="#navidad">Navideño</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Moda Minimalista</h1>
+        <p>Ropa moderna, simple y elegante para todos los estilos.</p>
+    </section>
+
+    <!-- Productos -->
+    <h2 style="text-align:center;margin-top:40px;">Nuevos productos</h2>
+
+    <section class="productos" id="productos">
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Producto">
+            <h3>Sudadera Beige</h3>
+            <p>$499 MXN</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Producto">
+            <h3>Pantalón Minimal</h3>
+            <p>$599 MXN</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Producto">
+            <h3>Playera Oversize</h3>
+            <p>$299 MXN</p>
+        </div>
+    </section>
+
+    <!-- Navidad -->
+    <h2 style="text-align:center;margin-top:60px;">Colección Navideña</h2>
+
+    <section class="productos" id="navidad">
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Navideño">
+            <h3>Sweater Navideño</h3>
+            <p>$549 MXN</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Navideño">
+            <h3>Gorro con Copos</h3>
+            <p>$199 MXN</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Mora — Tienda de Ropa. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
