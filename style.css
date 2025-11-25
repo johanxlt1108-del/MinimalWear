@@ -85,3 +85,63 @@ footer {
     background-color: #efe7dd;
     border-top: 1px solid #d6cfc7;
 }
+
+/* ==== Ajuste para las clases reales del HTML ==== */
+
+/* Contenedor de productos: CENTRADO */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+/* Cada tarjeta */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 260px;
+    border-radius: 12px;
+    border: 1px solid #e5ddd5;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.05);
+
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Imagen centrada */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Texto */
+.card h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #8a6e54;
+}
+
+/* Centrar header */
+header {
+    text-align: center;
+}
+
