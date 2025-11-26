@@ -10,27 +10,39 @@
 <body>
 
 <header>
-    <img src="Logo.png" alt="Logo Mora" style="width:100px; display:block; margin:0 auto;">
+    <img src="Logo.png" class="logo-img">
+    <nav>
+        <a href="index.html">Inicio</a>
+    </nav>
 </header>
 
-<section style="max-width:900px; margin:40px auto; text-align:center;">
-    <img src="https://via.placeholder.com/500" alt="Gorro con Copos" style="width:70%; border-radius:10px;">
-    <h1>Gorro con Copos</h1>
-    <p style="font-size:18px; margin:15px auto; width:70%;">
-        Gorro navideño suave, con diseño de copos de nieve.
-        Perfecto para temporada invernal y combinaciones navideñas.
-    </p>
-    <h2>$199 MXN</h2>
+<div class="container">
+    <div class="product-page">
+        <img src="gorro_copos.png" class="product-img">
 
-    <a href="index.html" style="
-        display:inline-block; margin-top:20px; padding:10px 20px;
-        border:1px solid black; border-radius:8px; text-decoration:none; color:black;
-    ">Volver a la tienda</a>
-</section>
+        <h2>Gorro con Copos</h2>
+        <p class="price">$199 MXN</p>
 
-<footer>
-    © 2025 Mora — Tienda de Ropa.
-</footer>
+        <p>
+            El Gorro con Copos es un accesorio navideño suave, ligero y cómodo.  
+            Perfecto para días fríos sin perder el estilo minimalista que caracteriza a Mora.
+        </p>
+
+        <h3>Características</h3>
+        <ul>
+            <li>Tejido suave y abrigador</li>
+            <li>Diseño de copos minimalista</li>
+            <li>Ideal para invierno</li>
+            <li>Talla única ajustable</li>
+        </ul>
+
+        <button class="add-to-cart" data-product="Gorro con Copos" data-price="199">Agregar al carrito</button>
+    </div>
+</div>
+
+<script src="cart.js"></script>
 
 </body>
 </html>
+
+
