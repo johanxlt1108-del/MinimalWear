@@ -10,27 +10,39 @@
 <body>
 
 <header>
-    <img src="Logo.png" alt="Logo Mora" style="width:100px; display:block; margin:0 auto;">
+    <img src="Logo.png" class="logo-img">
+    <nav>
+        <a href="index.html">Inicio</a>
+    </nav>
 </header>
 
-<section style="max-width:900px; margin:40px auto; text-align:center;">
-    <img src="https://via.placeholder.com/500" alt="Pantalón Minimal" style="width:70%; border-radius:10px;">
-    <h1>Pantalón Minimal</h1>
-    <p style="font-size:18px; margin:15px auto; width:70%;">
-        Pantalón estilo minimalista, corte recto y tela suave.
-        Perfecto para combinar con sudaderas o playeras básicas.
-    </p>
-    <h2>$599 MXN</h2>
+<div class="container">
+    <div class="product-page">
+        <img src="pantalon_beige.png" class="product-img">
 
-    <a href="index.html" style="
-        display:inline-block; margin-top:20px; padding:10px 20px;
-        border:1px solid black; border-radius:8px; text-decoration:none; color:black;
-    ">Volver a la tienda</a>
-</section>
+        <h2>Pantalón Minimal Beige</h2>
+        <p class="price">$599 MXN</p>
 
-<footer>
-    © 2025 Mora — Tienda de Ropa.
-</footer>
+        <p>
+            El Pantalón Minimal Beige fue diseñado para quienes buscan comodidad
+            y estilo en un solo diseño. Su corte recto estiliza la figura y su
+            color neutro lo convierte en una prenda versátil para cualquier ocasión.
+        </p>
+
+        <h3>Características</h3>
+        <ul>
+            <li>Elasticidad ligera para mayor confort</li>
+            <li>Color beige cálido combinable</li>
+            <li>Corte recto minimalista</li>
+            <li>Tejido resistente para uso diario</li>
+            <li>Unisex</li>
+        </ul>
+
+        <button class="add-to-cart" data-product="Pantalón Minimal" data-price="599">Agregar al carrito</button>
+    </div>
+</div>
+
+<script src="cart.js"></script>
 
 </body>
 </html>
